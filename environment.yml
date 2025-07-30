@@ -1,0 +1,13 @@
+name: software_paper
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - flopy
+  - pyemu
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - ./developed_software
